@@ -441,6 +441,15 @@ function useHint() {
   tick();
 }
 
+// Rearranges the cards on the table to give a fresh look. Free, and keeps
+// any selected or hinted cards marked.
+function shuffleBoard() {
+  if (!G || G.busy || G.over || !G.runningSince || G.board.length < 2) return;
+  const before = G.board.map(c => c.id).join();
+  do shuffle(G.board); while (G.board.map(c => c.id).join() === before);
+  renderBoard(G.board);
+}
+
 // ---------- End ----------
 
 function endGame() {
@@ -530,6 +539,7 @@ boardEl.addEventListener('click', e => {
 });
 
 $('btn-hint').addEventListener('click', useHint);
+$('btn-shuffle').addEventListener('click', shuffleBoard);
 $('btn-pause').addEventListener('click', () => pause(true));
 $('btn-resume').addEventListener('click', resume);
 $('btn-quit').addEventListener('click', quitToMenu);

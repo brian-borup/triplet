@@ -21,7 +21,7 @@ A **trio** is three cards where, for each feature, the cards are all the same or
 - **Classic** uses the full 81-card deck. The game ends when the deck is empty and no trio is left on the table. Your time is the score.
 - **Blitz** gives you 3 minutes to find as many trios as you can. The deck never runs out.
 
-A wrong pick costs 5 seconds and tells you which feature broke the trio. **Hint** costs 15 seconds: the first tap marks one card of a trio, the second marks another card in the same trio. In Blitz, penalties come off your clock. The menu has an option to show how many trios are on the table.
+A wrong pick costs 5 seconds and tells you which feature broke the trio. **Hint** costs 15 seconds: the first tap marks one card of a trio, the second marks another card in the same trio. In Blitz, penalties come off your clock. **Shuffle** rearranges the cards on the table for a fresh look, free of charge. The menu has an option to show how many trios are on the table.
 
 ## Icons
 
