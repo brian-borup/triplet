@@ -1,5 +1,5 @@
 // Bump this version whenever app files change so phones pick up the update.
-const CACHE = 'triplet-v3';
+const CACHE = 'triplet-v4';
 const FILES = [
   './',
   'index.html',
